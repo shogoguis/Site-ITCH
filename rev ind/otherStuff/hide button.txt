@@ -1,0 +1,181 @@
+<nav>
+                    <ul id="navList">
+                        <li><a href='#1rev'>1<sup><small>o</small></sup> Revolução Industrial</a></li>
+                        <div class="row">
+                        <a href="#hide1" class="hide" id="hide1">></a></a>
+                        <a href="#show1" class="show" id="show1">V</a>
+                        <div class="list">
+                        <ol>
+                            <table style="width:auto">
+                                <tr>
+                                    <th>Início</th>
+                                    <td>1760</td>
+                                </tr>
+                                    <tr>
+                                    <th>Fim</th>
+                                    <td>1820-/50</td>
+                                </tr>        
+                                <tr>
+                                    <th>Localizações</th>
+                                    <td>
+                                        <ul>
+                                            <li>Reino Unido(Início)</li>
+                                            <li>Europa Ocidental</li>
+                                            <li>Estados Unidos</li>
+                                        </ul>
+                                    </td>
+                                <tr>
+                                    <th>Características</th>
+                                    <td>
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                    <th>Resultados</th>  
+                                    <td>
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>         
+                                </tr>
+                            </table>
+                        </ol>
+                        </div>
+                        </div>
+                
+
+                        
+                <br>
+        
+        
+        
+        
+        
+                        <li><a href='#2rev'>2<sup><small>o</small></sup> Revolução Industrial</a></li>
+                        <div class="row">
+                        <a href="#hide2" class="hide" id="hide2">></a></a>
+                        <a href="#show2" class="show" id="show2">V</a>
+                        <div class="list">
+
+                        <ol>
+                            <table style="width:auto">
+                                <tr>
+                                    <th>Início</th>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>Fim</th>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>Localizações</th>
+                                    <td>
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                <tr>
+                                    <th>Características</th>
+                                    <td>
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                    <th>Resultados</th>  
+                                    <td>
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>            
+                                </tr>
+                            </table>
+                        </ol>    
+                        </div>
+                        </div>
+        
+        
+        
+                <br>
+        
+        
+        
+        
+        
+                        <li><a href='#3rev'>3<sup><small>o</small></sup> Revolução Industrial</a></li>
+                        <div class="row">
+                        <a href="#hide3" class="hide" id="hide3">></a></a>
+                        <a href="#show3" class="show" id="show3">V</a>
+                        <div class="list">
+                        <ol>
+                            <table style="width:auto">
+                                <tr>
+                                    <th>Início</th>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>Fim</th>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>Localizações</th>
+                                    <td>
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                <tr>
+                                    <th>Características</th>
+                                    <td>
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                    <th>Resultados</th>  
+                                    <td>
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>            
+                                </tr>
+                            </table>
+                        </ol>
+                        </div>
+                        </div>  
+                    </ul>
+
+                </nav>
+            </div>    
+            </header>
+
+------------------------------------------
+#navList {
+    text-align: left;
+    display: inline;
+    font-size: 15px;  
+}
+
+.row { vertical-align: top; height:auto !important; }
+.list {display: none; }
+.show {display: none; }
+.hide:target + .show {display: inline; }
+.hide:target {display: none; }
+.hide:target ~ .list {display:inline; }
+@media print { .hide, .show { display: none; } }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    border-width: 1px;
+    padding: 5px;
+    text-align: left;
+    text-align: left;
+}

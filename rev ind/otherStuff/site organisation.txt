@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <title> </title>
+    </head>
+    
+    <body style="background-color:lightblue">
+        <header>
+          <nav>
+            <!--Search more about the nav-->
+          </nav>
+        </header>
+        <main>
+            <article>
+             <!--Search more about article-->
+             <section>
+
+             </section>
+             <!--Search more about section-->
+              <aside>
+                <!--Search more about aside-->
+              </aside>
+             <section>
+
+             </section>
+            </article>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
